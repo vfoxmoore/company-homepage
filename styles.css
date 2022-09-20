@@ -1,12 +1,7 @@
-
-
-
-.header-bg {
-    position:absolute;
-    width: 100%;
-    overflow: hidden;
-    justify-content: center;
-  }
+body {
+    background-image: url('images/header-bg-faded.jpeg');
+    margin: 0;
+}
 
 .navbar {
     display: flex;
@@ -30,11 +25,11 @@
 }
  
  .navbar ul {
-    height: 20px;
+    height: 20%;
     margin-top: 70px;
-    padding: 0;
+    padding: 0 70px 70px 0;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 1.5em;
     list-style: none;
     text-decoration: underline;
     display: inline-flex;
@@ -42,9 +37,133 @@
 }
 
 .navbar ul li {
-    padding-right: 10px;
+    padding-right: 40px;
 }
 
 .navbar li:hover {
     color:brown
+}
+
+.mission {
+    width: 100%;
+    height: auto;
+    background-color:lightgray;opacity: 0.8;
+    display: flex-block;
+    color: black;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+}
+
+.mission>h2 {
+    color: black;
+    padding-top: 15px;
+    margin-bottom: 15px;
+}
+
+.mission>p {
+    color: brown;
+    width: 75%;
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+.gallery {
+    width: 100%;
+    height: auto;
+    background-color:lightgray;opacity: 0.8;
+    display: flex-block;
+    color: black;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+}
+
+.gallery>h2 {
+    color: black;
+    padding-top: 15px;
+    margin-bottom: 15px;
+}
+
+.gallery>p {
+    color: brown;
+    width: 75%;
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+.gallery-images {
+    display: inline-flex;
+}
+
+.gallery-images>img {
+    margin-right: 1em;
+    height: auto;
+    width: 100%;
+
+}
+
+.classes {
+    width: 100%;
+    height: auto;
+    background-color:lightgray;opacity: 0.8;
+    display: flex-block;
+    color: black;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+}
+
+.classes>h2 {
+    color: black;
+    padding-top: 15px;
+    margin-bottom: 15px;
+}
+
+.classes>p {
+    color: brown;
+    width: 75%;
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+.classes-images {
+    display: inline-flex;
+}
+
+.classes-images>img {
+    margin-right: 1em;
+    height: auto;
+    width: 100%;
+}
+
+.team {
+    width: 100%;
+    height: auto;
+    background-color:lightgray;opacity: 0.8;
+    display: flex-block;
+    color: black;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+}
+
+.team>h2 {
+    color: black;
+    padding-top: 15px;
+    margin-bottom: 15px;
+}
+
+.team-images {
+    display: inline-flex;
+}
+
+.team-images>img {
+    margin-right: 1em;
+    height: auto;
+    width: 100%;
 }
